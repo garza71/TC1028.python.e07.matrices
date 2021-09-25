@@ -25,11 +25,11 @@ det = a*d - c*b
 <br><br>
 El programa debe construir la matriz y posteriormente calcular el determinante con la función desarrollada. 
 
-Entrada: <br>
+<b>Entrada:</b> <br>
 Los renglones de la matriz, separando los valores por espacios. (2 valores por renglón, 2 renglones)
 Se sugiere utilizar la función <b>split</b> para generar una lista a partir de los datos dados en cada renglón.<br>
 
-Salida: <br>
+<b>Salida: </b><br>
 El valor correspondiente al determinante de la matriz.  En caso de entradas erróneas el mensaje "La matriz no es una matriz de 2x2".<br>
 
 Ejemplo de ejecución del programa<br>
