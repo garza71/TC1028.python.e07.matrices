@@ -16,13 +16,14 @@ if __name__ == '__main__':
 Desarrolla una función en Python que reciba  una matriz de números enteros de tamaño 2x2 y calcule su determinante.
 El determinante de una matriz es un número real asociado a una matriz cuadrada. 
 Para una matriz de tamaño 2x2 el determinante se calcula de la siguiente forma:
+<br>
  | a   b |
+ <br>
  | c   d |
+ <br>
 det = a*d - c*b
-El programa debe construir la matriz y posteriormente calcular el determinante con la función desarrollada. <b> Utiliza el archivo que encontrarás en el entorno.</b>
-
-En caso de que la matriz no corresponda a una matriz de 2X2 deberá desplegar el mensaje "La matriz no es una matriz de 2x2".
-Nota: Se debe incluir una función auxiliar que pida por teclado los valores de los dos renglones de la matriz y la cree. 
+<br><br>
+El programa debe construir la matriz y posteriormente calcular el determinante con la función desarrollada. 
 
 Entrada: <br>
 Los renglones de la matriz, separando los valores por espacios. (2 valores por renglón, 2 renglones)
@@ -37,10 +38,10 @@ Ejemplo de ejecución del programa<br>
 >>> 3 4
 -2
 
->>> 1 2 1
->>> 1 2 4
+>>> 10 20
+>>> 30 40
+-200
 
-La matriz no es una matriz de 2x2
 ```
 
 NOTA IMPORTANTE: Tu programa NO debe incluir ningún mensaje para pedir los datos y la salida debe coincidir exactamente con el formato y/o tipo de dato que se te pide como salida.
