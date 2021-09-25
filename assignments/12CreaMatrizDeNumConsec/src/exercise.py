@@ -1,24 +1,30 @@
 def main():
     #escribe tu código abajo de esta línea
 
-    # CODIGO ######################
-    ren=int(input())
-    col=int(input())
-    if ren>=2 and col>=2:
-        matriz=[]
-        num=1
-        for r in range(ren):
-            renglon=[]
-            for c in range(col):
+    #Cantidad de renglones
+    r = int(input())
+    c = int(input())
+
+    if r >= 2 and c >=2:
+        #Matriz vacía
+        matriz = []
+        #Crear la matriz 
+        num = 1
+        for x in range(r):
+            #Renglon vacío
+            renglon = []
+            #Crear un renglon
+            for x in range(c):
                 renglon.append(num)
-                num+=1
+                num = num + 1
             matriz.append(renglon)
+        #Imprime la matriz
         print(matriz)
     else:
         print("Error")
-    # FIN DEL CODIGO ##############
 
-    pass
+
+
 
 if __name__=='__main__':
     main()
