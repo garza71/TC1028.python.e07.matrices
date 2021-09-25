@@ -16,15 +16,14 @@ if __name__ == '__main__':
 <div style="font-family:verdana; font-size:10px">
 <h3>Suma columnas de una matriz</h3>
 Escribe un programa que pregunte el número de renglones y número de columnas de una matriz, después pregunte cada número de la matriz y regrese una lista con la suma de cada columna de la matriz.
-<b>Utiliza el archivo que se te provee en el entorno para implementar tu ejercicio </b>
-
-Entrada:<br>
+<br><br><b>
+Entrada:<br></b>
 Dos números enteros que son el número de renglones y el número de columnas, uno por renglón y en ese orden.
 La cantidad de números enteros que corresponderán a los elementos de la matriz, en total la cantidad de números a recibir es la multiplicación de los dos primeros números recibidos.
-
-Salida:<br>
+<br><b>
+Salida:</b><br>
 Lista con la suma de cada columna de la matriz. 
-Si alguno de los números recibidos correspondientes a la cantidad de renglones o de columnas son menores a 1, desplegar el mensaje: "Error".
+Si alguno de los números recibidos correspondientes a la cantidad de renglones o de columnas son menores a 1, desplegar el mensaje: "Error".<br><br>
 
 Ejemplo de ejecución del programa
 ```plaintext
